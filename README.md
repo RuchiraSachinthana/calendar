@@ -1,2 +1,2 @@
 # calender
- calculator using html css
+ calendar using html css
