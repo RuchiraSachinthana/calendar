@@ -23,8 +23,9 @@ body {
 
 .calendar .months-container .month-container {
     background: #fff;
-    padding: 20px;
+    padding:  20px;
     min-width: 280px;
+    height: 250px;
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
 
