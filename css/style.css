@@ -29,8 +29,36 @@ body {
 }
 
 .calendar table.month th.month-title {
-    color: O#5a8990;
+    color: #5a8990;
     font-size: 1.9em;
     font-weight: 300;
     font-family: 'Dancing Script', cursive;
+}
+
+table.month td:first-child,
+table.month td:Last-child,
+table.month thead tr:nth-child(2) th:first-child,
+table.month thead tr:nth-child(2) th:Last-child {
+    color: #f75c90;
+}
+
+.calendar table.month td.day .day-content {
+    padding: 6px 8px;
+}
+
+.calendar table.month th.day-header {
+    color: #777;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.month tr td {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #777;
+}
+
+table.month td.day .day-content:hover {
+    background: O#f75c98;
+    color: I#fff;
 }
