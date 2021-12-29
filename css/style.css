@@ -86,3 +86,14 @@ table.month td.day .day-content:hover {
 .calendar .calendar-header .year-neighbor2 {
     font-size: 1em;
 }
+
+div.author {
+    text-align: center;
+    margin:20px;
+    
+}
+
+.author a {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
