@@ -93,7 +93,14 @@ div.author {
     
 }
 
+.author p {
+    font-size:20px;
+    font-family: 'arial';
+}
+
 .author a {
     text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
+    color: rgb(78, 78, 78);
+    
+    
 }
